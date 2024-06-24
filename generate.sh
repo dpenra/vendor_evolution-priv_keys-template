@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# SPDX-FileCopyrightText: 2024 The Evolution X Project
+# SPDX-FileCopyrightText: 2024 The lineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -194,7 +194,7 @@ generate_keys_mk() {
     done
 
     echo >> keys.mk
-    echo "PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/evolution-priv/keys/testkey" >> keys.mk
+    echo "PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/testkey" >> keys.mk
     echo "PRODUCT_EXTRA_RECOVERY_KEYS :=" >> keys.mk
 }
 
